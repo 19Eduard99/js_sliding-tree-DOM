@@ -1,0 +1,2 @@
+var e=document.querySelectorAll(".tree > li, .tree > li > ul > li"),t=document.querySelectorAll("li");e.forEach(function(e){var t=e.firstChild,l=document.createElement("span");l.textContent=t.textContent,e.replaceChild(l,t)}),t.forEach(function(e){e.addEventListener("click",function(t){t.stopPropagation(),e.children.length>0&&("none"===e.lastElementChild.style.display?e.lastElementChild.style.display="block":e.lastElementChild.style.display="none")})});
+//# sourceMappingURL=index.477d78f5.js.map
